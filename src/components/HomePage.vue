@@ -2,7 +2,7 @@
   <div class="min-h-screen flex flex-col justify-center brah">
     <nav class="fixed top-0 z-10 sm:z-[1] h-14 w-full flex justify-between transition duration-500 ease-in-out"
       :class="{'max-[640px]:h-full': open, 'bg-nav': open }" x-data="{ open: false }">
-      <div class="w-12 h-12 bg-[url('./logo2.png')] bg-no-repeat bg-contain ml-4 mt-1"></div>
+      <div class="w-12 h-12 bg-[url('../assets/logo2.png')] bg-no-repeat bg-contain ml-4 mt-1"></div>
       <ul class="flex sm:flex-row-reverse max-[640px]:flex-col justify-center items-center transition duration-500 ease-in-out"
         :class="{'max-[640px]:hidden': !open }">
         <li>
@@ -30,7 +30,7 @@
         </div>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="./medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll">
+        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll pos">
           PR.01</h1>
         <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll">Lorem ipsum dolor sit amet
@@ -38,7 +38,7 @@
           Incidunt<br>laudantium cupiditate eaque iste?.</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="./medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll2">
+        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll2">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll2 pos">
           PR.02</h1>
         <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll2">Lorem ipsum dolor sit amet
@@ -46,7 +46,7 @@
           Incidunt<br>laudantium cupiditate eaque iste?.</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="./medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll3">
+        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll3">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll3 pos">
           PR.03</h1>
         <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll3">Lorem ipsum dolor sit amet
@@ -54,7 +54,7 @@
           Incidunt<br>laudantium cupiditate eaque iste?.</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="./medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll4">
+        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll4">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll4 pos">
           PR.04</h1>
         <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll4">Lorem ipsum dolor sit amet
@@ -62,7 +62,7 @@
           Incidunt<br>laudantium cupiditate eaque iste?.</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="./medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll5">
+        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll5">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll5 pos">
           PR.05</h1>
         <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll5">Lorem ipsum dolor sit amet
@@ -70,7 +70,7 @@
           Incidunt<br>laudantium cupiditate eaque iste?.</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="./medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll6">
+        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll6">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll6 pos">
           PR.06</h1>
         <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll6">Lorem ipsum dolor sit amet
@@ -78,7 +78,7 @@
           Incidunt<br>laudantium cupiditate eaque iste?.</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="./medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll7">
+        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll7">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll7 pos">
           PR.07</h1>
         <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll7">Lorem ipsum dolor sit amet
