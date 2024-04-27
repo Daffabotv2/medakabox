@@ -15,7 +15,7 @@ export default {
     this.$nextTick(() => {
       window.addEventListener("scroll", this.setScrollVar);
       window.addEventListener("resize", this.setScrollVar);
-      this.setScrollVar(); // Call after DOM is ready
+      this.setScrollVar();
     });
   },
   methods: {
