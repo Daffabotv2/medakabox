@@ -30,14 +30,6 @@ export default {
         console.warn("document.body not yet available");
       }
     },
-    handleAnimationEnd() {
-      if (this.$refs.animated && this.$refs.anime) {
-        this.$refs.animated.removeAttribute("id");
-        this.$refs.anime.removeAttribute("id");
-      } else {
-        console.warn("Animated elements not found");
-      }
-    },
   },
 };
 </script>
