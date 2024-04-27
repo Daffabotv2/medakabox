@@ -86,6 +86,8 @@
 </template>
 
 <script>
+import "../assets/js/scroll.js";
+  
 export default {}
 </script>
 
