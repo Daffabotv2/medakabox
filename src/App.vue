@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     setScrollVar() {
-      const htmlElement = document.body;
+      const htmlElement = document.getElementById("top");
       if (htmlElement) { // Check if element exists
         const percentOfScreenHeightScrolled = htmlElement.scrollTop / htmlElement.clientHeight;
         const au = percentOfScreenHeightScrolled * 100;
