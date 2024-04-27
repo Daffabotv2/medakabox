@@ -17,10 +17,8 @@ window.onload = () => {
         let toper = htmlElement.scrollTop;
         let clint = htmlElement.clientHeight;
         console.log("scrollTop: " + toper);
-        console.log("scrollTop: " + clint);
+        console.log("client: " + clint);
         console.log("hasil: " + ((htmlElement.scrollTop / htmlElement.clientHeight) * 100);
-        // console.log(1 - (1 / 100) * Number(Math.min(au, 30)) * 100 / 30);
-        // console.log("jika berada di bawah: " + (1 / 100) * (Math.max(au, 25) - 25) * 100 / 75);
         htmlElement.style.setProperty(
           "--scroll",
           au
