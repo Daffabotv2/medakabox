@@ -18,13 +18,6 @@ export default {
       this.setScrollVar(); // Call after DOM is ready
     });
   },
-  mounted() {
-    this.$nextTick(() => {
-      window.addEventListener("scroll", this.setScrollVar);
-      window.addEventListener("resize", this.setScrollVar);
-      this.setScrollVar(); // Call after DOM is ready
-    });
-  },
   methods: {
     setScrollVar() {
       const htmlElement = document.body;
