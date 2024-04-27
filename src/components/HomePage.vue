@@ -3,8 +3,7 @@
     <nav class="fixed top-0 z-10 sm:z-[1] h-14 w-full flex justify-between transition duration-500 ease-in-out"
       :class="{'max-[640px]:h-full': open, 'bg-nav': open }" x-data="{ open: false }">
       <div class="w-12 h-12 bg-[url('../assets/logo2.png')] bg-no-repeat bg-contain ml-4 mt-1"></div>
-      <ul class="flex sm:flex-row-reverse max-[640px]:flex-col justify-center items-center transition duration-500 ease-in-out"
-        :class="{'max-[640px]:hidden': !open }">
+      <ul class="flex sm:flex-row-reverse max-[640px]:flex-col justify-center items-center transition duration-500 ease-in-out" :class="{'max-[640px]:hidden': !open }">
         <li>
           <h1 class="text-color-two max-[640px]:mx-auto sm:mr-8 text-center max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500" :class="{'nav-ani': open }">>About</h1>
         </li>
@@ -13,20 +12,17 @@
       </ul>
       <button class="w-14 h-14 focus:outline-none rounded sm:hidden" @click="open = !open">
         <div class="block w-5">
-          <span class="block absolute h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out"
-            :class="{'rotate-45': open, '-translate-y-1.5': !open }"></span>
-          <span class="block absolute  h-0.5 w-5 bg-color-one transform transition duration-500 ease-in-out"
-            :class="{'opacity-0': open } "></span>
-          <span class="block absolute  h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out"
-            :class="{'-rotate-45': open, 'translate-y-1.5': !open}"></span>
+          <span class="block absolute h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out" :class="{'rotate-45': open, '-translate-y-1.5': !open }"></span>
+          <span class="block absolute  h-0.5 w-5 bg-color-one transform transition duration-500 ease-in-out" :class="{'opacity-0': open } "></span>
+          <span class="block absolute  h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out" :class="{'-rotate-45': open, 'translate-y-1.5': !open}"></span>
         </div>
       </button>
     </nav>
     <main>
       <section class="h-screen flex flex-col justify-center items-center state">
-        <div class="fixed title mx-auto text-center text-8xl sm:text-9xl font-bold cus-frame max-w-max text-color-one loading-text" id="anime">
-          <h1 class="mb-[-0.65rem] text-ani" id="animated">Med</h1>
-          <h1 class="text-ani" id="animated">Box</h1>
+        <div class="fixed title mx-auto text-center text-8xl sm:text-9xl font-bold cus-frame max-w-max text-color-one loading-text" id="anime" @animationend="handleAnimationEnd">
+          <h1 class="mb-[-0.65rem] text-ani" id="animated" @animationend="handleAnimationEnd">Med</h1>
+          <h1 class="text-ani" id="animated" @animationend="handleAnimationEnd">Box</h1>
         </div>
       </section>
       <section class="h-screen flex flex-col justify-center state">
