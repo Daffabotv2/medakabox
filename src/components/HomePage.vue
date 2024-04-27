@@ -9,7 +9,7 @@
         <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Social: TW GH LI</li>
         <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Available For Exigent +62 85156207150</li>
       </ul>
-      <button class="w-14 h-14 focus:outline-none rounded sm:hidden" v-on:click="open = !open">
+      <button class="w-14 h-14 focus:outline-none rounded sm:hidden" @click="open = !open">
         <div class="block w-5">
           <span class="block absolute h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out" v-bind:class="{'rotate-45': open, '-translate-y-1.5': !open }"></span>
           <span class="block absolute  h-0.5 w-5 bg-color-one transform transition duration-500 ease-in-out" v-bind:class="{'opacity-0': open } "></span>
@@ -87,7 +87,18 @@
 <script>
 import "../assets/js/scroll.js";
   
-export default {}
+export default {
+  data() {
+    return {
+      open: false, // Initial state of the navigation menu
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.open = !this.open; // Toggles the open state of the menu on button click
+    },
+  },
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
