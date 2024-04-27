@@ -24,10 +24,10 @@ export default {
       if (htmlElement) { // Check if element exists
         const percentOfScreenHeightScrolled = window.pageYOffset / htmlElement.clientHeight;
         const au = percentOfScreenHeightScrolled * 100;
-        let pag = window.pageYOffset;
-        let scr = window.scrollY;
-        let stp = htmlElement.scrollTop;
-        console.log("hasil: " + au);
+        const pag = window.pageYOffset;
+        const scr = window.scrollY;
+        const stp = htmlElement.scrollTop;
+        console.log(au);
         console.log(pag);
         console.log(scr);
         console.log(stp);
