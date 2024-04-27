@@ -15,7 +15,7 @@ window.onload = () => {
         const percentOfScreenHeightScrolled = window.pageYOffset / window.innerHeight;
         const au = percentOfScreenHeightScrolled * 100;
         let toper = window.pageYOffset / window.innerHeight;
-        let clint = htmlElement.scrollHeight;
+        let clint = htmlElement.clientHeight;
         let off = htmlElement.offsetHeight;
         let woff = window.innerHeight;
         console.log(toper);
