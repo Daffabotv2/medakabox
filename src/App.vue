@@ -11,32 +11,6 @@ export default {
   components: {
     HomePage,
   },
-  mounted() {
-    this.$nextTick(() => {
-      window.addEventListener("scroll", this.setScrollVar);
-      window.addEventListener("resize", this.setScrollVar);
-      this.setScrollVar();
-    });
-  },
-  methods: {
-    setScrollVar() {
-      const htmlElement = document.body;
-      if (htmlElement) { // Check if element exists
-        const percentOfScreenHeightScrolled = window.pageYOffset / htmlElement.clientHeight;
-        const au = percentOfScreenHeightScrolled * 100;
-        const pag = window.pageYOffset;
-        const scr = window.scrollY;
-        const stp = htmlElement.scrollTop;
-        console.log(au);
-        console.log(pag);
-        console.log(scr);
-        console.log(stp);
-        htmlElement.style.setProperty("--scroll", au);
-      } else {
-        console.warn("document.body not yet available");
-      }
-    },
-  },
 };
 </script>
 
