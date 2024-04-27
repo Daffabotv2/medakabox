@@ -25,6 +25,9 @@ export default {
         const percentOfScreenHeightScrolled = window.pageYOffset / htmlElement.clientHeight;
         const au = percentOfScreenHeightScrolled * 100;
         console.log("hasil: " + au);
+        console.log(window.pageYOffset);
+        console.log(window.scrollY);
+        console.log(htmlElement.scrollTop);
         htmlElement.style.setProperty("--scroll", au);
       } else {
         console.warn("document.body not yet available");
