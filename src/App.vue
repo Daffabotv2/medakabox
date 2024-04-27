@@ -24,10 +24,13 @@ export default {
       if (htmlElement) { // Check if element exists
         const percentOfScreenHeightScrolled = window.pageYOffset / htmlElement.clientHeight;
         const au = percentOfScreenHeightScrolled * 100;
+        let pag = window.pageYOffset;
+        let scr = window.scrollY;
+        let stp = htmlElement.scrollTop;
         console.log("hasil: " + au);
-        console.log(window.pageYOffset);
-        console.log(window.scrollY);
-        console.log(htmlElement.scrollTop);
+        console.log(pag);
+        console.log(scr);
+        console.log(stp);
         htmlElement.style.setProperty("--scroll", au);
       } else {
         console.warn("document.body not yet available");
