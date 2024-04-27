@@ -90,7 +90,7 @@ export default {}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
     :root {
       --color-one: 18, 55, 42;
       --color-two: 67, 104, 80;
