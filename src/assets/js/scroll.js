@@ -16,9 +16,9 @@ window.onload = () => {
         const au = percentOfScreenHeightScrolled * 100;
         let toper = htmlElement.scrollTop;
         let clint = htmlElement.clientHeight;
-        console.log("scrollTop: " + toper);
-        console.log("client: " + clint);
-        console.log("hasil: " + ((htmlElement.scrollTop / htmlElement.clientHeight) * 100);
+        console.log(toper);
+        console.log(clint);
+        console.log((htmlElement.scrollTop / htmlElement.clientHeight) * 100);
         htmlElement.style.setProperty(
           "--scroll",
           au
