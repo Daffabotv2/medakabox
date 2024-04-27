@@ -12,12 +12,16 @@ window.onload = () => {
 
       function setScrollVar() {
         const htmlElement = document.getElementById("top");
-        const percentOfScreenHeightScrolled = window.pageYOffset / htmlElement.clientHeight;
+        const percentOfScreenHeightScrolled = window.pageYOffset / htmlElement.offsetHeight;
         const au = percentOfScreenHeightScrolled * 100;
-        let toper = window.pageYOffset / htmlElement.clientHeight;
+        let toper = window.pageYOffset / htmlElement.offsetHeight;
         let clint = htmlElement.clientHeight;
+        let off = htmlElement.offsetHeight;
+        let woff = window.offsetHeight;
         console.log(toper);
         console.log(clint);
+        console.log(off);
+        console.log(woff);
         console.log((htmlElement.scrollTop / htmlElement.clientHeight) * 100);
         htmlElement.style.setProperty(
           "--scroll",
