@@ -6,8 +6,8 @@
         <li>
           <h1 class="text-color-two max-[640px]:mx-auto sm:mr-8 max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500" v-bind:class="{'nav-ani': open }">>About</h1>
         </li>
-        <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Social: TW GH LI</li>
-        <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Available For Exigent +62 85156207150</li>
+        <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Social: <a href="https://twitter.com/daffabot_id" target="_blank" rel="noopener noreferrer" class="underline">TW</a> <a href="https://github.com/Daffabot" target="_blank" rel="noopener noreferrer" class="underline">GH</a> <a href="https://linkedin.com/in/daffabot" target="_blank" rel="noopener noreferrer" class="underline">LI</a></li>
+        <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Available For Exigent <a href="https://wa.me/+6285156207150?text=Halo+Bang" rel="noopener noreferrer" target="_blank" class="underline">+62 85156207150</a></li>
       </ul>
       <button class="w-14 h-14 focus:outline-none rounded sm:hidden" @click="open = !open">
         <div class="block w-14">
