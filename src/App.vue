@@ -129,7 +129,7 @@ export default {
 
     .text-ani {
       transform: translateY(calc(var(--scroll) * -1%));
-      clip-path: polygon(0 calc((var(--scroll) * 1%) + 22%), 100% calc((var(--scroll) * 1%) + 22%), 100% 100%, 0 100%);
+      clip-path: polygon(0 calc((var(--scroll) * 1%) + 14%), 100% calc((var(--scroll) * 1%) + 14%), 100% 100%, 0 100%);
     }
 
     @media (max-width: 640px) {
