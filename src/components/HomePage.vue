@@ -2,15 +2,15 @@
   <div class="min-h-screen flex flex-col justify-center brah">
     <nav class="fixed top-0 z-10 sm:z-[1] h-14 w-full flex justify-between transition duration-500 ease-in-out" v-bind:class="{'max-[640px]:h-full': open, 'bg-nav': open }" x-data="{ open: false }">
       <div class="w-12 h-12 bg-[url('https://raw.githubusercontent.com/Daffabotv2/medakabox/main/src/assets/logo2.png')] bg-no-repeat bg-contain ml-4 mt-1"></div>
-      <ul class="flex sm:flex-row-reverse max-[640px]:flex-col justify-center items-center transition duration-500 ease-in-out" v-bind:class="{'max-[640px]:hidden': !open }">
+      <ul class="flex sm:flex-row-reverse max-[640px]:flex-col justify-center items-center transition duration-500 ease-in-out text-center" v-bind:class="{'max-[640px]:hidden': !open }">
         <li>
-          <h1 class="text-color-two max-[640px]:mx-auto sm:mr-8 text-center max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500" v-bind:class="{'nav-ani': open }">>About</h1>
+          <h1 class="text-color-two max-[640px]:mx-auto sm:mr-8 max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500" v-bind:class="{'nav-ani': open }">>About</h1>
         </li>
         <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Social: TW GH LI</li>
         <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Available For Exigent +62 85156207150</li>
       </ul>
       <button class="w-14 h-14 focus:outline-none rounded sm:hidden" @click="open = !open">
-        <div class="block w-5">
+        <div class="block w-14">
           <span class="block absolute h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out" v-bind:class="{'rotate-45': open, '-translate-y-1.5': !open }"></span>
           <span class="block absolute  h-0.5 w-5 bg-color-one transform transition duration-500 ease-in-out" v-bind:class="{'opacity-0': open } "></span>
           <span class="block absolute  h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out" v-bind:class="{'-rotate-45': open, 'translate-y-1.5': !open}"></span>
