@@ -1,0 +1,231 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MedBox - Mengapa Orang Bisa Pingsan? Penyebab dan Tanda-tandanya</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
+        ></script>
+        <script>
+            window.onload = () => {
+                //ga ada gunanya
+                const animatedElement = document.getElementById("animated");
+                const anima = document.getElementById("anime");
+
+                animatedElement.addEventListener("animationend", () => {
+                    animatedElement.removeAttribute("id");
+                    anima.removeAttribute("id");
+                });
+            };
+        </script>
+        <style>
+            :root {
+                --color-one: 18, 55, 42;
+                --color-two: 67, 104, 80;
+                --color-three: 83,127,99;
+                --color-four: 251, 250, 218;
+                --scroll: 0;
+            }
+
+            .bg-color-one {
+                background-color: rgb(var(--color-one));
+            }
+
+            .text-color-one {
+                color: rgb(var(--color-one));
+            }
+
+            .text-color-two {
+                color: rgb(var(--color-two));
+            }
+
+            .text-color-three {
+                color: rgb(var(--color-three));
+            }
+
+            .bg-color-four {
+                background-color: rgb(var(--color-four));
+            }
+
+            body {
+                background-color: rgb(var(--color-four));
+            }
+
+            html {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+
+            html::-webkit-scrollbar {
+                display: none;
+            }
+
+            .pos {
+                translate: 320px 10rem 0;
+            }
+
+            .title {
+                margin: 0 auto;
+                float: right;
+            }
+
+            #animated {
+                animation: parallax-up 1s linear;
+            }
+
+            @keyframes parallax-up {
+                0% {
+                    transform: translateY(-100%);
+                    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+                }
+
+                100% {
+                    transform: translateY(0);
+                    clip-path: polygon(0 22%, 100% 22%, 100% 100%, 0 100%);
+                }
+            }
+
+            @media (max-width: 640px) {
+                .bg-nav {
+                    background-color: rgb(var(--color-four));
+                }
+
+                .pos {
+                    translate: 0 15rem 0;
+                }
+
+                .nav-ani {
+                    animation: parallax-up 0.5s ease-in-out;
+                }
+            }
+        </style>
+    </head>
+
+    <body id="top">
+        <div class="min-h-screen flex flex-col justify-center brah">
+            <nav
+                class="fixed top-0 z-10 sm:z-[1] h-14 w-full flex justify-between transition duration-100 ease-in-out"
+                :class="{'max-[640px]:h-full': open, 'bg-nav': open }"
+                x-data="{ open: false }"
+            >
+                <div
+                    class="w-12 h-12 bg-[url('./logo2.png')] bg-no-repeat bg-contain ml-[16px] mt-[4px] transition duration-500 ease-in-out"
+                ></div>
+                <ul
+                    class="flex sm:flex-row-reverse max-[640px]:flex-col justify-center items-center transition duration-500 ease-in-out"
+                    :class="{'max-[640px]:hidden': !open }"
+                >
+                    <li>
+                        <h1
+                            class="text-color-two max-[640px]:mx-auto sm:mr-8 max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500"
+                            :class="{'nav-ani': open }"
+                        >
+                            >About
+                        </h1>
+                    </li>
+                    <li
+                        class="text-color-two sm:mr-8 transition duration-500"
+                        :class="{'nav-ani': open }"
+                    >
+                        Social: TW GH LI
+                    </li>
+                    <li
+                        class="text-color-two sm:mr-8 transition duration-500"
+                        :class="{'nav-ani': open }"
+                    >
+                        Available For Exigent +62 85156207150
+                    </li>
+                </ul>
+                <button
+                    class="w-14 h-14 focus:outline-none rounded sm:hidden"
+                    @click="open = !open"
+                >
+                    <div class="block w-14">
+                        <span
+                            class="block absolute h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out"
+                            :class="{'rotate-45': open, '-translate-y-1.5': !open }"
+                        ></span>
+                        <span
+                            class="block absolute h-0.5 w-5 bg-color-one transform transition duration-500 ease-in-out"
+                            :class="{'opacity-0': open } "
+                        ></span>
+                        <span
+                            class="block absolute h-0.5 w-7 bg-color-one transform transition duration-500 ease-in-out"
+                            :class="{'-rotate-45': open, 'translate-y-1.5': !open}"
+                        ></span>
+                    </div>
+                </button>
+            </nav>
+            <main>
+                <section class="h-screen flex flex-col justify-center">
+                    <img
+                        src="./medic1.png"
+                        alt="photo"
+                        class="absolute top-0 h-[600px] w-full object-scale-down mx-auto"
+                    />
+                    <h1
+                        class="font-bold text-6xl sm:text-9xl mb-10 ml-auto mr-auto max-[500px]:mr-9 text-color-one pos"
+                    >
+                        MEDBOX
+                    </h1>
+                    <b
+                        class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three pos"
+                        >Mengapa Orang Bisa Pingsan? Penyebab dan Tanda-tandanya</b
+                    >
+                </section>
+                <section class="h-screen flex flex-col justify-center state">
+                    <h1
+                        class="font-bold text-6xl sm:text-8xl ml-auto mr-auto text-color-one mb-5"
+                    >Mengapa Orang Bisa Pingsan? Penyebab dan Tanda-tandanya
+                    </h1>
+                    <center>
+                        <img
+                            src="image/img-2.jpeg"
+                            width="95%"
+                            class="rounded-md"
+                        />
+                    </center>
+                    <font
+                        class="ml-10 sm:w-3/5 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three"
+                    >
+<p>
+Pernahkah kamu merasa pusing yang luar biasa hingga akhirnya kamu pingsan? Yup, itu adalah salah satu pengalaman yang cukup menakutkan. Tapi, tahukah kamu apa sebenarnya yang bisa menyebabkan seseorang pingsan?
+</p>
+<p>
+Pingsan, atau dalam istilah medis disebut sebagai sinkop, adalah keadaan yang membuat seseorang kehilangan kesadaran sesaat karena aliran darah ke otak terganggu. Beberapa penyebab pingsan bisa bermacam-macam, di antaranya:
+</p>
+<b class="font-bold text-7xl sm:text-10xl mb-10 ml-auto mr-auto max-[500px]:mr-9 text-color-two">1. Pengurangan Aliran Darah ke Otak
+</b>
+<p>
+  Salah satu penyebab utama pingsan adalah ketidakcukupan aliran darah ke otak. Ini bisa disebabkan oleh berbagai hal, mulai dari berdiri terlalu lama, berubah posisi secara mendadak, sampai kondisi medis tertentu seperti masalah jantung atau tekanan darah rendah.
+</p>
+<b class="font-bold text-7xl sm:text-10xl mb-10 ml-auto mr-auto max-[500px]:mr-9 text-color-two">2. Stres atau Kecemasan Berlebihan</b>
+<p>
+  Kondisi emosional seperti stres atau kecemasan yang berlebihan juga bisa menjadi pemicu pingsan. Hal ini terjadi karena respons tubuh terhadap situasi yang membuat stres bisa mengganggu sistem saraf otonom yang mengatur tekanan darah dan detak jantung.
+</p>
+<b class="font-bold text-7xl sm:text-10xl mb-10 ml-auto mr-auto max-[500px]:mr-9 text-color-two">3. Hipoglikemia</b>
+<p>Kadar gula darah yang terlalu rendah (hipoglikemia) juga dapat menyebabkan seseorang pingsan. Ini biasanya terjadi pada penderita diabetes yang melewatkan makanan atau mengonsumsi obat diabetes tanpa cukup asupan makanan.
+</p>
+<b class="font-bold text-7xl sm:text-10xl mb-10 ml-auto mr-auto max-[500px]:mr-9 text-color-two">4. Dehidrasi</b>
+<p>
+Kurangnya cairan dalam tubuh bisa mengganggu keseimbangan elektrolit dan tekanan darah, yang pada akhirnya bisa menyebabkan pingsan.
+</p>
+<b class="font-bold text-7xl sm:text-10xl mb-10 ml-auto mr-auto max-[500px]:mr-9 text-color-two">5. Efek Samping Obat</b>
+<p>
+  Beberapa obat-obatan tertentu memiliki efek samping yang bisa menyebabkan pingsan, terutama jika dosisnya tidak sesuai atau tubuh tidak cocok dengan obat tersebut.
+</p>
+<p>
+Tanda-tanda seseorang akan pingsan biasanya termasuk pusing, mual, berkeringat dingin, pucat, atau merasa lemah. Jika kamu atau orang di sekitarmu mengalami gejala tersebut, segeralah mencari bantuan medis atau beristirahatlah dalam posisi yang aman.
+</p>
+<p>
+Jadi, penting untuk mengenali penyebab pingsan agar bisa mengambil tindakan yang tepat untuk mencegahnya. Jangan ragu untuk berkonsultasi dengan dokter jika kamu sering mengalami pingsan atau memiliki kondisi medis yang mungkin berkaitan dengan hal ini. Kesehatan adalah hal yang sangat berharga, jadi jangan abaikan gejala-gejala yang muncul pada tubuhmu.
+                        </p>
+                    </font>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
