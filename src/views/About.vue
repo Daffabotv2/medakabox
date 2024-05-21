@@ -11,7 +11,6 @@ export default {
   components: {
     AboutPage,
   },
-  name: 'About'
 };
 </script>
 
