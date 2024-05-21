@@ -5,12 +5,13 @@
 </template>
 
 <script>
-import HomePage from '../components/AboutPage.vue';
+import AboutPage from '../components/AboutPage.vue';
 
 export default {
   components: {
     AboutPage,
   },
+  name: 'AboutPage'
 };
 </script>
 
