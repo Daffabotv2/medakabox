@@ -4,25 +4,20 @@ import VueRouter from 'vue-router';
 import HomePage from './views/Home.vue';
 import AboutPage from './views/About.vue';
 
-Vue.use(VueRouter);
+Vue.use(Router);
 
-const routes = [
-  {
-    path: '/',
-    name: 'HomePage',
-    component: HomePage
-  },
-  {
-    path: '/about',
-    name: 'AboutPage',
-    component: AboutPage
-  }
-];
-
-const router = new VueRouter({
+export default new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
-  routes
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: HomePage,
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: AboutPage,
+    },
+  ],
 });
-
-export default router;
