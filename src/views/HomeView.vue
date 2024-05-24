@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   :root {
       --color-one: 18, 55, 42;
       --color-two: 67, 104, 80;
