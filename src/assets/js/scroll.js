@@ -30,4 +30,32 @@ window.onload = () => {
       }
 
       setScrollVar()
+
+      // Mendapatkan URL saat ini
+const currentUrl = window.location.pathname;
+
+// Fungsi untuk menambahkan tag <style> ke dalam <head>
+function addStyleTag(src) {
+  const styleTag = document.createElement('style');
+  styleTag.setAttribute('src', src);
+  document.head.appendChild(styleTag);
+}
+
+// Fungsi untuk menghapus tag <style> dari <head>
+function removeStyleTag(src) {
+  const styleTags = document.querySelectorAll('style[src="' + src + '"]');
+  styleTags.forEach(tag => tag.remove());
+}
+
+// Jika URL adalah '/' tambahkan home.css dan hapus about.css jika ada
+if (currentUrl === '/') {
+  addStyleTag('../assets/styles/home.css');
+  removeStyleTag('../assets/styles/about.css');
+}
+// Jika URL adalah '/about' tambahkan about.css dan hapus home.css jika ada
+else if (currentUrl === '/about') {
+  addStyleTag('../assets/styles/about.css');
+  removeStyleTag('../assets/styles/home.css');
+}
+
     }
