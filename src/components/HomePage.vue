@@ -102,7 +102,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
     html {
       -ms-overflow-style: none;
       scrollbar-width: none;
