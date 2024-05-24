@@ -12,6 +12,7 @@ const routes = [
           {
             path: '/',
             name: 'HomePage',
+            component: DefaultLayout
           }
       ]
     },
