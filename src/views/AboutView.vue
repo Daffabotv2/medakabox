@@ -13,7 +13,10 @@ export default {
         return {
             link: [
                 { rel: 'stylesheet', href: '../assets/styles/about.css' }
-            ]
+            ],
+            bodyAttrs: {
+                class: 'AboutPage'
+            }
         }
     }
 }
