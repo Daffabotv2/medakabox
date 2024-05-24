@@ -1,23 +1,24 @@
 // src/router/index.js
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from './views/Home.vue';
 import AboutPage from './views/About.vue';
 
-Vue.use(VueRouter);
+const routes = [
+  {
+    path: '/',
+    name: 'HomePage',
+    component: HomePage
+  },
+  {
+    path: '/about',
+    name: 'AboutPage',
+    component: AboutPage
+  }
+];
 
-export default new VueRouter({
-  mode: 'history',
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomePage,
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: AboutPage,
-    },
-  ],
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes
 });
+
+export default router;
