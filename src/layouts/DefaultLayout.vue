@@ -10,15 +10,11 @@ export default {
     components: {
         HomePage
     },
-    name: 'HomePage',
     head() {
         return {
             link: [
                 { rel: 'stylesheet', href: '../assets/styles/home.css' }
-            ],
-            bodyAttrs: {
-                class: 'HomePage'
-            }
+            ]
         }
     }
 }

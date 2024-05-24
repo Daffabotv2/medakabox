@@ -9,15 +9,11 @@ export default {
     components: {
         AboutPage
     },
-    name: 'AboutPage',
     head() {
         return {
             link: [
                 { rel: 'stylesheet', href: '../assets/styles/about.css' }
-            ],
-            bodyAttrs: {
-                class: 'AboutPage'
-            }
+            ]
         }
     }
 }
