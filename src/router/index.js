@@ -4,16 +4,9 @@ import DefaultLayout from '/src/layouts/DefaultLayout.vue';
 
 const routes = [
     {
-      path: '/',
-      name: 'Public',
-      redirect: '/',
-      children: [
-          {
-            path: '/',
-            name: 'HomePage',
-            component: DefaultLayout
-          }
-      ]
+        path: '/',
+        name: 'HomePage',
+        component: DefaultLayout
     },
     {
       path: '/about',
