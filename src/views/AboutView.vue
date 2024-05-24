@@ -12,4 +12,6 @@ export default {
 }
 </script>
 
-<style src="../assets/styles/about.css"></style>
+<style scoped>
+@import '../assets/styles/about.css';
+</style>

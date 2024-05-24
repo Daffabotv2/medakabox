@@ -13,4 +13,6 @@ export default {
 }
 </script>
 
-<style src="../assets/styles/home.css"></style>
+<style scoped>
+@import '../assets/styles/home.css';
+</style>
