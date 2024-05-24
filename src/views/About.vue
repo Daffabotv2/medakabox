@@ -3,15 +3,13 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue';
 import AboutPage from '../components/AboutPage.vue';
 
-export default defineComponent({
-  name: 'AboutPage',
-  components: {
-    AboutPage,
-  },
-});
+export default {
+    components: {
+        AboutPage
+    }
+}
 </script>
 
 <style>
