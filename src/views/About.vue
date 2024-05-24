@@ -5,14 +5,15 @@
 </template>
 
 <script>
+import { defineComponent } from 'vue';
 import AboutPage from '../components/AboutPage.vue';
 
-export default {
+export default defineComponent({
+  name: 'AboutPage',
   components: {
     AboutPage,
   },
-  name: 'AboutPage'
-};
+});
 </script>
 
 <style>

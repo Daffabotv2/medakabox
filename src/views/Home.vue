@@ -5,14 +5,15 @@
 </template>
 
 <script>
+import { defineComponent } from 'vue';
 import HomePage from '../components/HomePage.vue';
 
-export default {
+export default defineComponent({
+  name: 'HomePage',
   components: {
     HomePage,
   },
-  name: 'HomePage'
-};
+});
 </script>
 
 <style>
