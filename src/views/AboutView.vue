@@ -12,4 +12,4 @@ export default {
 }
 </script>
 
-<style src="../assets/css/about.css"></style>
+<style src="../assets/styles/about.css"></style>
