@@ -11,3 +11,13 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+:root {
+      --color-one: 251, 255, 255;
+      --color-two: 251, 255, 255;
+      --color-three: 27, 30, 35;
+      --color-four: 27, 30, 35;
+      --scroll: 0;
+    }
+</style>
