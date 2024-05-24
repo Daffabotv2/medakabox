@@ -52,42 +52,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-html {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
 
-    html::-webkit-scrollbar {
-      display: none;
-    }
-
-    #animated {
-      animation: parallax-up 1s linear;
-    }
-
-    @keyframes parallax-up {
-      0% {
-        transform: translateY(-100%);
-        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
-      }
-
-      100% {
-        transform: translateY(0);
-        clip-path: polygon(0 22%, 100% 22%, 100% 100%, 0 100%);
-      }
-    }
-
-    .title {
-      margin: 0 auto;
-      float: right;
-    }
-@media (max-width: 640px) {
-      .pos {
-        translate: 0 -9rem 0;
-      }
-
-      .nav-ani {
-        animation: parallax-up 0.5s ease-in-out;
-      }
-    }
 </style>

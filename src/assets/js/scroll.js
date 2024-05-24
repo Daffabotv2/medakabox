@@ -49,13 +49,13 @@ function removeStyleTag(src) {
 
 // Jika URL adalah '/' tambahkan home.css dan hapus about.css jika ada
 if (currentUrl === '/') {
-  addStyleTag('../styles/home.css');
-  removeStyleTag('../styles/about.css');
+  addStyleTag('./styles/home.css');
+  removeStyleTag('./styles/about.css');
 }
 // Jika URL adalah '/about' tambahkan about.css dan hapus home.css jika ada
 else if (currentUrl === '/about') {
-  addStyleTag('../styles/about.css');
-  removeStyleTag('../styles/home.css');
+  addStyleTag('./styles/about.css');
+  removeStyleTag('./styles/home.css');
 }
 
     }
