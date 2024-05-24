@@ -6,7 +6,6 @@ const routes = [
     {
       path: '/',
       name: 'Public',
-      component: DefaultLayout,
       redirect: '/',
       children: [
           {
