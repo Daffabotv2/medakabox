@@ -9,10 +9,17 @@ import HomePage from '../components/HomePage.vue';
 export default {
     components: {
         HomePage
+    },
+    name: 'HomePage',
+    head() {
+        return {
+            link: [
+                { rel: 'stylesheet', href: '../assets/styles/home.css' }
+            ],
+            bodyAttrs: {
+                class: 'HomePage'
+            }
+        }
     }
 }
 </script>
-
-<style scoped>
-@import '../assets/styles/home.css';
-</style>
