@@ -1,19 +1,10 @@
-<template>
-  <div id="app">
-    <router-view v-slot="{ Component }">
-      <component :is="Component" />
-    </router-view>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'App',
-  mounted() {
-    console.log('App mounted');
-  }
-};
+<script setup>
+import HomePage from './components/HomePage.vue';
 </script>
+
+<template>
+    <router-view/>
+</template>
 
 <style>
   :root {

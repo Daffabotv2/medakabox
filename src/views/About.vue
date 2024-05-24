@@ -1,7 +1,5 @@
 <template>
-  <div id="app">
     <AboutPage />
-  </div>
 </template>
 
 <script>
