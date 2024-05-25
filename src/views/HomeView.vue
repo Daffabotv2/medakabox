@@ -3,11 +3,9 @@
 </template>
 
 <script>
-import HomePage from '../components/HomePage.vue';
-
 export default {
     components: {
-        HomePage
+        HomePage: () => import('../components/HomePage.vue')
     }
 }
 </script>

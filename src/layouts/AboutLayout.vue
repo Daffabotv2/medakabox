@@ -1,16 +1,16 @@
 <template>
-    <HomePage></HomePage>
+    <AboutPage></AboutPage>
     <router-view></router-view>
 </template>
 
 <script>
 export default {
     components: {
-        HomePage: () => import('../components/HomePage.vue')
+        AboutPage: () => import('../components/AboutPage.vue')
     }
 }
 </script>
 
 <style scoped>
-@import '../assets/styles/home.css';
+@import '../assets/styles/about.css';
 </style>
