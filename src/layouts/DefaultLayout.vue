@@ -1,12 +1,14 @@
 <template>
-    <HomePage></HomePage>
-    <router-view></router-view>
+    <HomePage />
+    <router-view/>
 </template>
 
 <script>
+import HomePage from '../components/HomePage.vue';
+
 export default {
     components: {
-        HomePage: () => import('../components/HomePage.vue')
+        HomePage
     }
 }
 </script>

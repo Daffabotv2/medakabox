@@ -1,12 +1,14 @@
 <template>
-    <AboutPage></AboutPage>
-    <router-view></router-view>
+    <AboutPage />
+    <router-view/>
 </template>
 
 <script>
+import AboutPage from '../components/AboutPage.vue'
+
 export default {
     components: {
-        AboutPage: () => import('../components/AboutPage.vue')
+        AboutPage
     }
 }
 </script>
