@@ -6,7 +6,7 @@
       <ul class="flex sm:flex-row-reverse max-[640px]:flex-col justify-center items-center text-center transition duration-500 ease-in-out"
         :class="{'max-[640px]:hidden': !open }">
         <li>
-          <h1 class="text-color-two max-[640px]:mx-auto sm:mr-8 max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500" :class="{'nav-ani': open }"><router-link to="/">>Home</router-link></h1>
+          <h1 class="text-color-two max-[640px]:mx-auto sm:mr-8 max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500" :class="{'nav-ani': open }"><router-link to="/" target="_blank">>Home</router-link></h1>
         </li>
         <li class="text-color-two sm:mr-8 transition duration-500" :class="{'nav-ani': open }">Social: <a href="https://twitter.com/daffabot_id" target="_blank" rel="noopener noreferrer" class="underline">TW</a> <a href="https://github.com/Daffabot" target="_blank" rel="noopener noreferrer" class="underline">GH</a> <a href="https://linkedin.com/in/daffabot" target="_blank" rel="noopener noreferrer" class="underline">LI</a></li>
         <li class="text-color-two sm:mr-8 transition duration-500" :class="{'nav-ani': open }">Available For Exigent <a href="https://wa.me/+6285156207150?text=Halo+Bang" rel="noopener noreferrer" target="_blank" class="underline">+62 85156207150</a></li>
