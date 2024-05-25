@@ -4,12 +4,12 @@ const routes = [
     {
         path: '/',
         name: 'HomePage',
-        component: DefaultLayout: () => import('/src/layouts/DefaultLayout.vue')
+        component: () => import('/src/layouts/DefaultLayout.vue')
     },
     {
       path: '/about',
       name: 'AboutPage',
-      component: AboutLayout: () => import('/src/layouts/AboutLayout.vue')
+      component: () => import('/src/layouts/AboutLayout.vue')
     }
   ];
   
