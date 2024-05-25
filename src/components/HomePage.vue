@@ -4,7 +4,7 @@
       <div class="w-12 h-12 bg-[url('https://raw.githubusercontent.com/Daffabotv2/medakabox/main/src/assets/logo2.png')] bg-no-repeat bg-contain ml-4 mt-1"></div>
       <ul class="flex sm:flex-row-reverse max-[640px]:flex-col justify-center items-center transition duration-500 ease-in-out text-center" v-bind:class="{'max-[640px]:hidden': !open }">
         <li>
-          <h1 class="text-color-two max-[640px]:mx-auto sm:mr-8 max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500" v-bind:class="{'nav-ani': open }"><router-link to="/about" @click.native="navigateToAbout">>About</router-link></h1>
+          <h1 class="text-color-two max-[640px]:mx-auto sm:mr-8 max-[330px]:text-4xl max-[640px]:text-6xl font-bold max-[640px]:mb-20 transition duration-500" v-bind:class="{'nav-ani': open }"><router-link to="/about" @click="navigateToAbout">>About</router-link></h1>
         </li>
         <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Social: <a href="https://twitter.com/daffabot_id" target="_blank" rel="noopener noreferrer" class="underline">TW</a> <a href="https://github.com/Daffabot" target="_blank" rel="noopener noreferrer" class="underline">GH</a> <a href="https://linkedin.com/in/daffabot" target="_blank" rel="noopener noreferrer" class="underline">LI</a></li>
         <li class="text-color-two sm:mr-8 transition duration-500" v-bind:class="{'nav-ani': open }">Available For Exigent <a href="https://wa.me/+6285156207150?text=Halo+Bang" rel="noopener noreferrer" target="_blank" class="underline">+62 85156207150</a></li>
