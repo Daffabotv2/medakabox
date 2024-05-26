@@ -25,60 +25,34 @@
         </div>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll">
+        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-fit mx-auto scroll">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll pos">
           PR.01</h1>
-        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll">Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.
-          Incidunt<br>laudantium cupiditate eaque iste?.</b>
+        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-center text-xl text-color-one scroll">Tools Pencarian Penyakit</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll2">
+        <img src="https://i.pinimg.com/1200x/48/93/f7/4893f7c90ecf2215cd79f68f1c83ed00.jpg" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-fit mx-auto scroll2">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll2 pos">
           PR.02</h1>
-        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll2">Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.
-          Incidunt<br>laudantium cupiditate eaque iste?.</b>
+        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-center text-xl text-color-one scroll2">Tools Pencarian Obat</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll3">
+        <img src="https://asset.kompas.com/crops/BWXpMNgeentOl-N3Ip3An2QZ-a4=/0x0:780x520/750x500/data/photo/2021/08/03/610909587f395.jpg" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-fit mx-auto scroll3">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll3 pos">
           PR.03</h1>
-        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll3">Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.
-          Incidunt<br>laudantium cupiditate eaque iste?.</b>
+        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-center text-xl text-color-one scroll3">Tools Kalkukator BMI</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll4">
+        <img src="https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_975_16981278236522842.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-fit mx-auto scroll4">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll4 pos">
           PR.04</h1>
-        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll4">Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.
-          Incidunt<br>laudantium cupiditate eaque iste?.</b>
+        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-center text-xl text-color-one scroll4">Tools Kalkulator Resiko Diabetes</b>
       </section>
       <section class="h-screen flex flex-col justify-center state">
-        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll5">
+        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/7/29/b179904f-55d0-4f57-8ea5-352d439ed0a4.jpg" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-fit mx-auto scroll5">
         <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll5 pos">
           PR.05</h1>
-        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll5">Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.
-          Incidunt<br>laudantium cupiditate eaque iste?.</b>
-      </section>
-      <section class="h-screen flex flex-col justify-center state">
-        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll6">
-        <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll6 pos">
-          PR.06</h1>
-        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll6">Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.
-          Incidunt<br>laudantium cupiditate eaque iste?.</b>
-      </section>
-      <section class="h-screen flex flex-col justify-center state">
-        <img src="../assets/medic1.png" alt="photo" class="w-56 h-56 sm:w-96 sm:h-96 object-contain mx-auto scroll7">
-        <h1 class="font-bold text-6xl sm:text-8xl ml-auto mr-20 max-[500px]:mr-9 sm:mr-auto -mb-10 sm:-mb-20 text-color-one scroll7 pos">
-          PR.07</h1>
-        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-left text-color-three scroll7">Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.
-          Incidunt<br>laudantium cupiditate eaque iste?.</b>
+        <b class="ml-10 mr-5 sm:ml-auto sm:mr-auto text-center text-xl text-color-one scroll5">Pengingat Jadwal Minum Obat</b>
       </section>
     </main>
   </div>
